@@ -1,3 +1,16 @@
-### ---===[ Updates Updates Updates ]===---
+### ---===[ Updates & Fixes & Major Additions ]===---
 
 - Updated ViaVersion
+- Updated ViaRewind
+- Updated ViaBackwards
+- Updated Shulkerbox Tooltip
+- Added No Telementary
+- Added Reach Around
+- Added Axiom
+- Added Additional Structures
+- Added Geckolib Iris Compact
+- Added Spyglass Astronomy
+- Added Infinite Trading
+- Added Modpack Update Checker
+- Added Structure Backgrounds for Loading Backgrounds
+- Fixed Elytra Crashes
