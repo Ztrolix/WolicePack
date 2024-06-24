@@ -14,6 +14,16 @@ def log(logStr, doPrint=True, logFile=logLocation):
 		logString = logStr + "\n"
 		log_file.write(logString)
 
+def isInt(value):
+    try:
+        int(value)
+        return True
+    except ValueError:
+        log("------------------------")
+        log("ERROR: Value is String")
+        log("------------------------")
+        return False
+
 log("------------------------")
 while True:
     start_date = date(1970, 1, 1, 11, 0, 0)
@@ -24,20 +34,21 @@ while True:
     log("Month: " + month, False)
     day = input("Day: ")
     log("Day: " + day, False)
-    
-    try:
-        end_date = date(int(year), int(month), int(day), 11, 0, 0)
-        time_difference = end_date - start_date
-        milliseconds_difference = time_difference.total_seconds() * 1000
 
-        log("------------------------")
-        log(str(milliseconds_difference))
-        log("------------------------")
-    except ValueError:
-        log("------------------------")
-        log("ERROR: Not Valid Date!")
-        log("------------------------")
-    except:
-        log("------------------------")
-        log("ERROR: Something went wrong!")
-        log("------------------------")
+    if isInt(year) and isInt(month) and isInt(day):
+        try:
+            end_date = date(int(year), int(month), int(day), 11, 0, 0)
+            time_difference = end_date - start_date
+            milliseconds_difference = time_difference.total_seconds() * 1000
+
+            log("------------------------")
+            log(str(milliseconds_difference))
+            log("------------------------")
+        except ValueError:
+            log("------------------------")
+            log("ERROR: Not Valid Date!")
+            log("------------------------")
+        except:
+            log("------------------------")
+            log("ERROR: Something went wrong!")
+            log("------------------------")
