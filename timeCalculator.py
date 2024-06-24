@@ -1,17 +1,14 @@
-from datetime import datetime
-import random
+from datetime import datetime as date
+import random as rand
 import os
 
-def generate_random_number():
-    return random.randint(10000, 99999)
-
-random_number = generate_random_number()
+randNum = rand.randint(10000, 99999)
 if not os.path.exists('logs'):
     os.mkdir('logs')
-log_file_name = f"logs/timeCalc-{random_number}.log"
 
-def log(logStr, doPrint=True):
-	with open(log_file_name, 'a') as log_file:
+logLocation = f"logs/timeCalc-{randNum}.log"
+def log(logStr, doPrint=True, logFile=logLocation):
+	with open(logFile, 'a') as log_file:
 		if doPrint == True:
 			print(logStr)
 		logString = logStr + "\n"
@@ -19,7 +16,7 @@ def log(logStr, doPrint=True):
 
 log("------------------------")
 while True:
-    start_date = datetime(1970, 1, 1, 11, 0, 0)
+    start_date = date(1970, 1, 1, 11, 0, 0)
     
     year = input("Year: ")
     log("Year: " + year, False)
@@ -29,14 +26,18 @@ while True:
     log("Day: " + day, False)
     
     try:
-        end_date = datetime(int(year), int(month), int(day), 11, 0, 0)
+        end_date = date(int(year), int(month), int(day), 11, 0, 0)
         time_difference = end_date - start_date
         milliseconds_difference = time_difference.total_seconds() * 1000
-        
+
         log("------------------------")
         log(str(milliseconds_difference))
         log("------------------------")
+    except ValueError:
+        log("------------------------")
+        log("ERROR: Not Valid Date!")
+        log("------------------------")
     except:
         log("------------------------")
-        log("ERROR: Something went wrong when calculating the time!")
+        log("ERROR: Something went wrong!")
         log("------------------------")
