@@ -83,6 +83,15 @@
             "modrinth": "https://modrinth.com/modpack/wolicep/version/1.1.0+Full"
         }
       }
+    },
+    {
+      "id": "2.0.0",
+      "releasedAt": 95648947200000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/2.0.0+Full"
+        }
+      }
     }
   ]
 }
