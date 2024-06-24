@@ -25,10 +25,15 @@ while True:
     day = input("Day: ")
     log("Day: " + day, False)
     
-    end_date = datetime(int(year), int(month), int(day), 11, 0, 0)
-    time_difference = end_date - start_date
-    milliseconds_difference = time_difference.total_seconds() * 1000
-    
-    log("------------------------")
-    log(str(milliseconds_difference))
-    log("------------------------")
+    try:
+        end_date = datetime(int(year), int(month), int(day), 11, 0, 0)
+        time_difference = end_date - start_date
+        milliseconds_difference = time_difference.total_seconds() * 1000
+        
+        log("------------------------")
+        log(str(milliseconds_difference))
+        log("------------------------")
+    except:
+        log("------------------------")
+        log("ERROR: Something went wrong when calculating the time!")
+        log("------------------------")
