@@ -5,7 +5,7 @@
   "versions": [
     {
       "id": "1.0.0",
-      "releasedAt": 1718460000,
+      "releasedAt": 1718496000000,
       "promotions": {
         "downloads": {
             "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0"
@@ -14,7 +14,7 @@
     },
     {
       "id": "1.0.1",
-      "releasedAt": 1718460000,
+      "releasedAt": 1718496000000,
       "promotions": {
         "downloads": {
             "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.1"
@@ -23,7 +23,7 @@
     },
     {
       "id": "1.0.2",
-      "releasedAt": 1718632800,
+      "releasedAt": 1718668800000,
       "promotions": {
         "downloads": {
             "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.2"
@@ -50,7 +50,7 @@
     },
     {
       "id": "1.0.5",
-      "releasedAt": 1718892000,
+      "releasedAt": 1719369600000,
       "promotions": {
         "downloads": {
             "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.5"
@@ -59,7 +59,7 @@
     },
     {
       "id": "1.0.6",
-      "releasedAt": 1718978400,
+      "releasedAt": 1719542400000,
       "promotions": {
         "downloads": {
             "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.6"
@@ -68,7 +68,7 @@
     },
     {
       "id": "1.0.7",
-      "releasedAt": 1719064800,
+      "releasedAt": 1719715200000,
       "promotions": {
         "downloads": {
             "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.7+Full"
