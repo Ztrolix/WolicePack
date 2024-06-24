@@ -40,9 +40,10 @@ while True:
             end_date = date(int(year), int(month), int(day), 11, 0, 0)
             time_difference = end_date - start_date
             milliseconds_difference = time_difference.total_seconds() * 1000
+            milliseconds = round(milliseconds_difference)
 
             log("------------------------")
-            log(str(milliseconds_difference))
+            log(str(milliseconds))
             log("------------------------")
         except ValueError:
             log("------------------------")
