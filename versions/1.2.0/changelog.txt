@@ -10,6 +10,14 @@
 - Added TooManyPlayers
 - Added VisibleOffhand
 - Added Ec Enchanting Command
+- Added Early Loading Screen Port from NeoForge
 - Updated Bliss Shaders
 - Updated Balm
 - Updated Shulkerbox Tooltip
+- Updated ViaVersion
+- Updated ViaRewind
+- Updated ViaBackwards
+- Disabled EarlyLoadingScreen
+
+> [!NOTE]
+> If it ever says "Resource Reload Failed" click F3 + T to reload.
