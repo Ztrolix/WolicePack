@@ -1,11 +1,14 @@
 from datetime import datetime
 import random
+import os
 
 def generate_random_number():
     return random.randint(10000, 99999)
 
 random_number = generate_random_number()
-log_file_name = f"timeCalc-{random_number}.log"
+if (not os.path.exists('logs')):
+    os.mkdir('logs')
+log_file_name = f"logs/timeCalc-{random_number}.log"
 
 def log(logStr, doPrint=True):
 	with open(log_file_name, 'a') as log_file:

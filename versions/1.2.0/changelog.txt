@@ -1,0 +1,12 @@
+### ---===[ The Enhanced Update ]===---
+
+- Fixed Modpack Update Checker
+- Changed Font
+- Changed Shader Formatting
+- Added WorldEdit
+- Added Pixelated Enhanced Visuals
+- Added Better Spyglass
+- Added Tommy's Better Anvil
+- Added TooManyPlayers
+- Added XaeroZoomout
+- Updated Bliss Shaders
