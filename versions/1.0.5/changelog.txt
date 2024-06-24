@@ -1,0 +1,9 @@
+### ---===[ Fixes & Updates ]===---
+
+- Fixed Mica
+- Updated Fast IP Ping
+- Updated ObsidianUI
+- Updated Lithium
+- Updated FSit
+- Updated Collective
+- Updated Chat Patches

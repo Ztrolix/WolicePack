@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "requiresMpuc": 14,
+  "hotfixesFormat": null,
+  "versions": [
+    {
+      "id": "1.0.0",
+      "releasedAt": 1718460000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.0.0"
+        }
+      }
+    },
+    {
+      "id": "1.0.1",
+      "releasedAt": 1718460000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.0.1"
+        }
+      }
+    },
+    {
+      "id": "1.0.2",
+      "releasedAt": 1718632800,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.0.2"
+        }
+      }
+    },
+    {
+      "id": "1.0.3",
+      "releasedAt": 1718719200,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.0.3"
+        }
+      }
+    },
+    {
+      "id": "1.0.4",
+      "releasedAt": 1718805600,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.0.4"
+        }
+      }
+    },
+    {
+      "id": "1.0.5",
+      "releasedAt": 1718892000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.0.5"
+        }
+      }
+    },
+    {
+      "id": "1.0.6",
+      "releasedAt": 1718978400,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.0.6"
+        }
+      }
+    },
+    {
+      "id": "1.0.7",
+      "releasedAt": 1719064800,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.0.7+Full"
+        }
+      }
+    },
+    {
+      "id": "1.1.0",
+      "releasedAt": 1719151200,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicepack/version/1.1.0+Full"
+        }
+      }
+    }
+  ]
+}
