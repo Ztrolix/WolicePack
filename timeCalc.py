@@ -20,8 +20,20 @@ def isInt(value):
         return True
     except ValueError:
         log("------------------------")
-        log("ERROR: Value is String")
+        log("ERROR: Value is String!")
         log("------------------------")
+        return False
+
+def isNotNull(value):
+    try:
+        if value == "" or value == " " or value is None:
+            log("------------------------")
+            log("ERROR: Value is Empty!")
+            log("------------------------")
+            return False
+        else:
+            return True
+    except:
         return False
 
 log("------------------------")
@@ -35,21 +47,23 @@ while True:
     day = input("Day: ")
     log("Day: " + day, False)
 
-    if isInt(year) and isInt(month) and isInt(day):
-        try:
-            end_date = date(int(year), int(month), int(day), 11, 0, 0)
-            time_difference = end_date - start_date
-            milliseconds_difference = time_difference.total_seconds() * 1000
-            milliseconds = round(milliseconds_difference)
+    
+    if isNotNull(year) and isNotNull(month) and isNotNull(day):
+        if isInt(year) and isInt(month) and isInt(day):
+            try:
+                end_date = date(int(year), int(month), int(day), 11, 0, 0)
+                time_difference = end_date - start_date
+                milliseconds_difference = time_difference.total_seconds() * 1000
+                milliseconds = round(milliseconds_difference)
 
-            log("------------------------")
-            log(str(milliseconds))
-            log("------------------------")
-        except ValueError:
-            log("------------------------")
-            log("ERROR: Not Valid Date!")
-            log("------------------------")
-        except:
-            log("------------------------")
-            log("ERROR: Something went wrong!")
-            log("------------------------")
+                log("------------------------")
+                log(str(milliseconds))
+                log("------------------------")
+            except ValueError:
+                log("------------------------")
+                log("ERROR: Not Valid Date!")
+                log("------------------------")
+            except:
+                log("------------------------")
+                log("ERROR: Something went wrong!")
+                log("------------------------")
