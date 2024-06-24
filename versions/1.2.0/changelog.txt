@@ -19,5 +19,6 @@
 - Updated ViaBackwards
 - Disabled EarlyLoadingScreen
 
-> [!NOTE]
+> 🛈 Note
+>
 > If it ever says "Resource Reload Failed" click F3 + T to reload.
