@@ -6,13 +6,13 @@ def generate_random_number():
     return random.randint(10000, 99999)
 
 random_number = generate_random_number()
-if (not os.path.exists('logs')):
+if not os.path.exists('logs'):
     os.mkdir('logs')
 log_file_name = f"logs/timeCalc-{random_number}.log"
 
 def log(logStr, doPrint=True):
 	with open(log_file_name, 'a') as log_file:
-		if (doPrint == None or doPrint == True):
+		if doPrint == True:
 			print(logStr)
 		logString = logStr + "\n"
 		log_file.write(logString)
