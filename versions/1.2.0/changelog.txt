@@ -8,5 +8,8 @@
 - Added Better Spyglass
 - Added Tommy's Better Anvil
 - Added TooManyPlayers
-- Added XaeroZoomout
+- Added VisibleOffhand
+- Added Ec Enchanting Command
 - Updated Bliss Shaders
+- Updated Balm
+- Updated Shulkerbox Tooltip
