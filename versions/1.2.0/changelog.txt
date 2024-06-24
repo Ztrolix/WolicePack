@@ -21,4 +21,4 @@
 
 > **🛈 Note:** If it ever says "Resource Reload Failed" click F3 + T to reload.
 
-> **🛈 Note: ** If it ever freezes on the first launch, stop the game and restart it.
+> **🛈 Note:** ** If it ever freezes on the first launch, stop the game and restart it.
