@@ -4,6 +4,78 @@
   "hotfixesFormat": null,
   "versions": [
     {
+      "id": "1.0.0-Alpha.6",
+      "releasedAt": 1716336000000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0-Alpha.6"
+        }
+      }
+    },
+    {
+      "id": "1.0.-Beta.1",
+      "releasedAt": 1717200000000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0-Beta.1"
+        }
+      }
+    },
+    {
+      "id": "1.0.0-Beta.2",
+      "releasedAt": 1717545600000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0-Beta.2"
+        }
+      }
+    },
+    {
+      "id": "1.0.0-Beta.3",
+      "releasedAt": 1717545600000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0-Beta.3"
+        }
+      }
+    },
+    {
+      "id": "1.0.0-Beta.4",
+      "releasedAt": 1718409600000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0-Beta.4"
+        }
+      }
+    },
+    {
+      "id": "1.0.0-Beta.5",
+      "releasedAt": 1718409600000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0-Beta.5"
+        }
+      }
+    },
+    {
+      "id": "1.0.0-Beta.6",
+      "releasedAt": 1718496000000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0-Beta.6"
+        }
+      }
+    },
+    {
+      "id": "1.0.0-Beta.7",
+      "releasedAt": 1718496000000,
+      "promotions": {
+        "downloads": {
+            "modrinth": "https://modrinth.com/modpack/wolicep/version/1.0.0-Beta.7"
+        }
+      }
+    },
+    {
       "id": "1.0.0",
       "releasedAt": 1718496000000,
       "promotions": {
