@@ -1,6 +1,11 @@
-### ---===[ Minor Fix ]===---
+### ---===[ Updates ]===---
 
-- Fixed Sodium
+- Updated WarpPortals
+- Updated FancyBlockParticles
+- Updated Chest Tracker
+- Updated Better Stats
+- Updated Visible Offhand
+- Disabled Visible Offhand
 
 > **🛈 Note:** If it ever says "Resource Reload Failed" click F3 + T to reload.
 
