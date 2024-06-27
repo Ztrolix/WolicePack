@@ -1,0 +1,11 @@
+### ---===[ Some Updates ]===---
+
+- Updated ViaBackwards
+- Updated ViaRewind
+- Updated ViaVersion
+- Updated Collective
+- Added Projectile Ding
+
+> **🛈 Note:** If it ever says "Resource Reload Failed" click F3 + T to reload.
+
+> **🛈 Note:** If it ever freezes on the first launch, stop the game and restart it.
