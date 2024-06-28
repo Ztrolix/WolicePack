@@ -1,6 +1,10 @@
-> This is only for Windows currently due to mod issues.
+<h1 align="center">WolicePack</h1>
 
-<h3 align="center"><img src="https://github.com/Ztrolix/EarthUntrial/blob/main/descript.png?raw=true"/></h3>
+<h3 align="center">⚠️ Please Read the Version you are Installing! ⚠️</h3>
+
+Each version of the modpack is intended for a purpose please read the warning in the changelog for the version you are installing! `NE` is for 1.19 modded servers. `FE/Full` is for high-end PCs and contains the full version of the modpack. `LE/Lite` is for low-end PCs.
+
+<h2 align="center">Description</h2>
 
 Welcome to WolicePack, where performance meets quality-of-life enhancements for your Minecraft experience!
 
