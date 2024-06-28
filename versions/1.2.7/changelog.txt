@@ -1,0 +1,10 @@
+### ---===[ Just a bit of Updates ]===---
+
+- Updated ViaRewind
+- Updated ViaVersion
+- Updated Collective
+- Updated World Preview
+
+> **🛈 Note:** If it ever says "Resource Reload Failed" click F3 + T to reload.
+
+> **🛈 Note:** If it ever freezes on the first launch, stop the game and restart it.
